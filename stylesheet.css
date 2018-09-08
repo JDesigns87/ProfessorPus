@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+}
+
+body {
+background-image: url(images/bg.jpg);
+background-attachment: fixed
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 800px 600px 700px 300px 100% 1000px 700px 400px 100% 700px 300px;
+  grid-template-areas:
+  'glitch'
+  'interview'
+  'textbox1'
+  'citat'
+  'musikvideo'
+  'textbox2'
+  'parallaxbillede'
+  'eyes'
+  'interview2'
+  'textbox3'
+  'footer'
+}
+
+audio {
+  margin-left:80px;
+  margin-top: 30px;
+}
+
+.section1 {
+  grid-area: glitch;
+  background-image: url(images/hero/giphy1.gif);
+  background-repeat:no-repeat;
+  background-size: contain;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+  margin-bottom: 100px;
+
+}
+
+.section2 {
+  grid-area: textbox1;
+  background-image:url(images/hero/professorpus.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+  margin-bottom: 100px;
+}
+
+.box {
+  width:40%;
+  padding-top: 120px;
+  margin-left: 110px;
+}
+
+
+
+.section2 p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #22313f;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.section2 h2 {
+  color: #22313f;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.section3 {
+  grid-area: interview;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
+
+.section4 {
+  grid-area: citat;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  margin-bottom: 100px;
+}
+
+
+.section4 h2 {
+  padding: 20px 30px 10px 100px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  color: #ECF0F1;
+  background-color: rgba(0, 0, 0, 0.8);
+  width:1000px;
+  margin: auto;
+}
+
+.section5 {
+  grid-area: musikvideo;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  background-color: #BE90D4;
+  margin-bottom: 80px;
+}
+
+.section6 {
+  grid-area: textbox2;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+  background-image: url(images/hero/travels.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.box1 {
+  width:30%;
+  float: right;
+  padding-top: 220px;
+  margin-right: 120px;
+}
+
+
+
+.section6 p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #22313f;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.section6 h2 {
+  color: #22313f;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+
+}
+
+
+.section7 {
+  grid-area: parallaxbillede;
+  background-image: url(images/slideshow/pus1.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+
+.section8 {
+  background-image: url(images/hero/eyes.png);
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+
+.section9 {
+  grid-area: interview2;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  margin-bottom: 100px;
+}
+
+.section10 {
+  grid-area: textbox3;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+    background-color: #ECF0F1;
+    background-image: url(images/hero/studio.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+
+}
+
+.box2 {
+  width:30%;
+  padding-top: 110px;
+  margin-left: 110px;
+}
+
+
+
+.section10 p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #22313f;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.section10 h2 {
+  color: #22313f;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+.section11 {
+  grid-area: footer;
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  background-color: #BE90D4;
+}
+
+
+video {
+  width:100%;
+  height:600px;
+  background-color: #BE90D4;
+}
+
+iframe {
+  width: 100%;
+  height: 600px;
+}
