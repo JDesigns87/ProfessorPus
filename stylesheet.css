@@ -43,7 +43,7 @@ background-attachment: fixed
   display: grid;
   position:absolute;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.8fr 0.5fr 0.9fr 0.2fr 0.5fr 1fr 1fr 0.5fr 0.8fr 0.8fr 0.5fr;
+  grid-template-rows: 0.8fr 0.5fr 0.9fr 0.2fr 0.5fr 1fr 1fr 0.5fr 0.8fr 0.8fr 0.2fr;
   grid-template-areas:
   'glitch'
   'interview'
