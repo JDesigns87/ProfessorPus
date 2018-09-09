@@ -23,6 +23,7 @@ if (!(myVideo.curentTime > 0)) {
 myVideo.load(); // load the video
 myVideo.play(); // play audio
 }
+
 } else {
 console.log(elFllVsbl(erJegHer)); // test
 myVideo.pause();
